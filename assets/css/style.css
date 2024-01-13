@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rym {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0%;
+    background: black;
+    width: 100%;
+    margin: 0;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: rgb(31, 108, 143);
+}
+
+.filtros {
+    background-color: #b4b3b3;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.ordenar-container {
+    display: flex;
+    align-items: center;
+}
+
+.filtros select {
+    width: 150px;
+    margin: 0;
+    border: none;
+    height: 20px;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 30%;
+    width: 100%;
+    background: rgb(55, 175, 199); 
+    padding: 0px;
+    color: #3c3c3d;
+}
+
+.rick {
+    background: rgb(124, 246, 99);
+    margin: 20px;
+    border-radius: 4%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#increase {
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#increase:hover{
+    transform: scale(2,2);
+}
+
+#decrease{
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#decrease:hover{
+    transform: scale(2,2);
+}
+
+.product p{
+    color: black;
+}
+
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.product{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.footer {
+    background-color: #3c3c3d;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}

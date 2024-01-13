@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tarjeta del Producto</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/java.js"></script>
+</head>
+
+<body>
+
+    <div class="rym">
+        <img src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABdlsO0LP022AtLRcPlik-5uWGqVS90oIr1Wy70ULe7-qyaW-Y3a9zUgndw6Q6KuHX2gH_Vd3Nxnl6EOU38_ep9ApNbNfn2Krr6hLj6fhs_eZ.png?r=976"
+            width="auto" height="150">
+    </div>
+
+    <div class="inicio">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#prod">Productos</a></li>
+            <li><a href="#pie">Redes</a></li>
+        </ul>
+    </div>
+    <div class="filtros">
+        <div class="ordenar-container">
+            <h2>Ordenar por :</h2>
+            <select id="ordenarPor" onchange="actualizarTotal()">
+                <option value="menorAMayor">De menor a mayor</option>
+                <option value="mayorAMenor">De mayor a menor</option>
+                <option value="marca">Marca</option>
+                <option value="precio">Precio</option>
+            </select>
+        </div>
+    </div>
+    <div class="tarjeta">
+      <div class="rick">
+         <div class="product">
+            <h2>Funko Pop! Rick And Morty </h2>
+            <h3>RICK</h3>
+            <img src="assets/img/funco_rick.jpg" width="400">
+            <p>Precio: $<span id="price">100</span>CLP</p>
+            <p>Cantidad: <span id="quantity">1</span></p>
+        </div>
+        <div class="boton">
+            <button id="increase">+</button>
+            <button id="decrease">-</button>
+        </div>
+        <div class="final">
+            <p>Total a pagar: $<span id="total">100</span>CLP</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+        <small>&copy; 2024 <b>Company Niconstvc</b> - Todos los Derechos Reservados.</small>
+    </div>
+
+</body>
+
+</html>
